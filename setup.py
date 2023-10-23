@@ -17,15 +17,15 @@ def get_imageio_dep():
 requirements = [
     'freetype-py',                # For font loading
     get_imageio_dep(),            # For Image I/O
-    'networkx',                   # For the scene graph
-    'numpy',                      # Numpy
-    'Pillow',                     # For Trimesh texture conversions
+    #'networkx',                   # For the scene graph
+    #'numpy',                      # Numpy
+    #'Pillow',                     # For Trimesh texture conversions
     'pyglet>=1.4.10',             # For the pyglet viewer
     'PyOpenGL~=3.1.0',            # For OpenGL
 #    'PyOpenGL_accelerate~=3.1.0', # For OpenGL
-    'scipy',                      # Because of trimesh missing dep
+    #'scipy',                      # Because of trimesh missing dep
     'six',                        # For Python 2/3 interop
-    'trimesh',                    # For meshes
+    #'trimesh',                    # For meshes
 ]
 
 dev_requirements = [
